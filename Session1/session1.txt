@@ -1,3 +1,4 @@
+cd Desktop
 mkdir "youssef mahmoud"
 cd "youssef mahmoud"
 mkdir Documents
@@ -8,20 +9,34 @@ touch .hidden_file
 ls -a
 cd Documents
 nano file1.txt 
+Hello, friend.
+“Hello, friend?” That’s lame.
+Maybe I should give you a name.
+But that’s a slippery slope. You’re only in my head.
+We have to remember that.
+Shit.
+It’s actually happened. I’m talking to an imaginary person.
+What I’m about to tell you is top secret.
+A conspiracy bigger than all of us.
+There’s a powerful group of people out there that are secretly running the world.
+I’m talking about the guys no one knows about.
+The guys that are invisible.
+The top one percent of the top one percent.
+The guys that play God without permission.
+And now I think they’re following me.
 ctrl + o
 enter 
 ctrl + x
-cd Documents
 cat file1.txt
 mkdir "-"
-cd /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud"/Documents/-
+cd /home/kali/Desktop/"youssef mahmoud"/Documents/-
 cd ../..  
 cp -r Documents My_Documents
 ls
 cat .hidden_file
 cd Documents
-mv file2.txt file3.txt /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud"  
-ls /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud"                       
+mv file2.txt file3.txt /home/kali/Desktop/"youssef mahmoud"  
+ls /home/kali/Desktop/"youssef mahmoud"                       
 cd ~
-rm -r /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud" 
-ls /home/kali/Desktop/"linux summer training"/session1/task1/
+rm -r /home/kali/Desktop/"youssef mahmoud" 
+ls /home/kali/Desktop/
