@@ -1,1 +1,27 @@
-
+mkdir "youssef mahmoud"
+cd "youssef mahmoud"
+mkdir Documents
+cd Documents
+touch file1.txt file2.txt file3.txt
+cd ..
+touch .hidden_file
+ls -a
+cd Documents
+nano file1.txt 
+ctrl + o
+enter 
+ctrl + x
+cd Documents
+cat file1.txt
+mkdir "-"
+cd /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud"/Documents/-
+cd ../..  
+cp -r Documents My_Documents
+ls
+cat .hidden_file
+cd Documents
+mv file2.txt file3.txt /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud"  
+ls /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud"                       
+cd ~
+rm -r /home/kali/Desktop/"linux summer training"/session1/task1/"youssef mahmoud" 
+ls /home/kali/Desktop/"linux summer training"/session1/task1/
