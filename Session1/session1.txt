@@ -1,14 +1,18 @@
+STEP1
 cd Desktop
 mkdir "youssef mahmoud"
 cd "youssef mahmoud"
+STEP2
 mkdir Documents
 cd Documents
 touch file1.txt file2.txt file3.txt
+ls
+STEP3
 cd ..
 touch .hidden_file
 ls -a
-cd Documents
-nano file1.txt 
+STEP4
+nano /home/MR.J/Desktop/youssef\ mahmoud/Documents/file1.txt 
 Hello, friend.
 “Hello, friend?” That’s lame.
 Maybe I should give you a name.
@@ -28,15 +32,22 @@ ctrl + o
 enter 
 ctrl + x
 cat file1.txt
+STEP5
+cd -
+STEP6
 mkdir "-"
 cd /home/kali/Desktop/"youssef mahmoud"/Documents/-
+STEP7
 cd ../..  
 cp -r Documents My_Documents
 ls
+STEP8
 cat .hidden_file
+STEP9
 cd Documents
 mv file2.txt file3.txt /home/kali/Desktop/"youssef mahmoud"  
 ls /home/kali/Desktop/"youssef mahmoud"                       
+STEP10
 cd ~
 rm -r /home/kali/Desktop/"youssef mahmoud" 
 ls /home/kali/Desktop/
