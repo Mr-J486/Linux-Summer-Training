@@ -31,7 +31,7 @@ And now I think they’re following me.
 ctrl + o
 enter 
 ctrl + x
-cat file1.txt
+cat /home/MR.J/Desktop/youssef\ mahmoud/Documents/file1.txt 
 STEP5
 cd -
 STEP6
