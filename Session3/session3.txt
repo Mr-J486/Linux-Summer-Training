@@ -1,0 +1,29 @@
+#Session3 task
+1.
+sudo useradd -m osc
+sudo passwd osc 
+sudo groupadd osc_group
+sudo usermod -aG osc_group osc
+sudo usermod -aG sudo osc  
+su - osc
+2.
+sudo mkdir permission_practice
+cd permission_practice
+sudo touch public_file.txt
+sudo chmod 666 public_file.txt
+sudo touch private_file.txt
+sudo chmod 600 private_file.txt
+sudo touch executable_script.sh
+sudo chmod 750 executable_script.sh
+3.
+sudo chown MR.J private_file.txt
+sudo chgrp osc_group private_file.txt
+4.
+sleep 1000 &
+kill 272138 
+vim 
+killall -SIGKILL vim
+ps -af
+5.
+sudo apt install neofetch 
+sudo apt remove neofetch 
